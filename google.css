@@ -1,5 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.icon-image {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+a {
+    color: #70757a;
+    text-decoration: none;
+}
 .header-class {
     text-align: right;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    padding: 0 4px;
+    padding-left: 30px;
+    -webkit-flex: 0 0 auto;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    -webkit-box-pack: flex-end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+   
 }
 .icon {
     padding-top: 7px;
@@ -10,6 +35,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 150px;
+    padding-bottom: 232px;
 }
 .google-image {
     width: 272px;
@@ -37,4 +64,56 @@
 
 input:focus, input:focus{
     outline: none;
+}
+.btn-search {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.section-input {
+    padding-top: 22px;
+}
+
+.buttons {
+    padding-top: 30px;
+}
+.footer {
+    background: #f2f2f2;
+}
+.mexico {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.footer-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.link-r {
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
 }
